@@ -10,3 +10,5 @@ for line in file:
 file.close()
 
 # Your code below — use the students list
+for i in students:
+    print(i[0] + " is " + i[1] + " years old and lives in " + i[2] + ".")

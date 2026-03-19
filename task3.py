@@ -24,3 +24,6 @@ file.close()
 
 # Your code below — loop through results and display each student's grade
 # Use get_grade(score) to get the grade string — e.g. get_grade(results[0][1])
+
+for i in results:
+    print(i[0], i[1] + "% " + get_grade(score=int(i[1])))
